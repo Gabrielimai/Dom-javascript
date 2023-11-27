@@ -10,3 +10,14 @@ const dev = {
   },
 };
 dev.sayMyName();
+
+// ##################################################
+
+const user = {
+  prop: 100,
+  f: function () {
+    return this.prop; // O this está apontando para o obj user, e acessando a propriedade prop.
+  },
+};
+
+console.log(user.f());
