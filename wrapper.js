@@ -25,5 +25,20 @@ console.log(`num1 com duas casas decimais ${num1.toFixed(2)}
 num2 com 3 casas decimais ${num2.toFixed(3)}`)
 
 
-const converteStringParaNumber = num1.valueOf()
-console.log(`O tipo é um ${typeof converteStringParaNumber}`);
+const mostraOTipoDeNun1 = num1.valueOf()
+console.log(`O tipo é um ${typeof mostraOTipoDeNun1}`);
+
+// ##################################################################################################
+
+// Criando um boleano
+const bool1  =  Boolean(0)
+const bool2 = new Boolean('')
+
+console.log(`bool1 => ${bool1}
+bool2 => ${bool2}`);
+
+console.log(`bool1.toString() = ${bool1.toString()}
+bool2.toString() = ${bool2.toString()}`);
+
+const mostraOTipoDeBool1 = bool1.valueOf()
+console.log(`O tipo de bool1 é um ${typeof bool1}`);
