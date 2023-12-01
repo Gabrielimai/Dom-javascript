@@ -6,5 +6,5 @@ console.log(numerosCom4e5);
 
 //Spread Operator para atribuir variáveis
 
-const [dez, vinte, ...resto] = [10, 20, 30, 40, 50]; // uso do ...Rest Operator(Operador de resto)
+const [dez, vinte, ...resto] = [10, 20, 30, 40, 50]; // uso do ...Rest Operator
 console.log(resto)
