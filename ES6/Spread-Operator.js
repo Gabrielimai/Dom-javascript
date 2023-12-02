@@ -15,9 +15,9 @@
 
 const numeros = [1, 2, 3, 4, 5];
 
-const osNumeros = [primeiro, segundo, terceiro, quarto, quinto] = numeros;
+const [primeiro, segundo, terceiro, quarto, quinto] = numeros;
 
-console.log(osNumeros);     //@@@
+console.log(primeiro, segundo, terceiro, quarto, quinto);     //@@@
 
 // // *******************************************************************************************
 // // 2. Inverta os valores das variáveis "a" e "b". Transforme o valor da variável "a" no valor da variável "b" e vice-versa, e logue-as no console.
@@ -49,6 +49,6 @@ const sobremesas = [
     "Mousse de Maracujá",
   ];
   
-  const [primeiro, segundo, ...rest] = [  "Sorvete","Petit Gateau","Açai","Pudim","Mousse de Maracujá",];
-  console.log([primeiro, segundo, rest]);  //@@@@
+  const [primeiraSobremesa, segundaSobremesa, ...rest] = [  "Sorvete","Petit Gateau","Açai","Pudim","Mousse de Maracujá",];
+  console.log(primeiraSobremesa, segundaSobremesa, rest);  //@@@@
   
