@@ -10,7 +10,7 @@ function verificarNegativo(numero) {
   return numero < 0;
 }
 
-const verificarNegativoArrow = (numero) => numero < 0
+const verificarNegativoArrow = numero => numero < 0
 // ############################################################
 function criarUsuario(nome, idade) {
   return {
@@ -19,9 +19,9 @@ function criarUsuario(nome, idade) {
   };
 }
 
-const criarUsuario = (name, idade) => ({
-    name:'Gabriel',
-    idade: 24
+const criarUsuarioArrow = (name, idade) => ({
+    name,
+    idade, 
 })
 // ############################################################
 setTimeout(function () {
