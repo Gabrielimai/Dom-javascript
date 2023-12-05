@@ -1,0 +1,2 @@
+
+// 2. Crie uma classe chamada "Viking", derivada da classe "Guerreiro" criada acima. Sobrescreva o método "lutar", que agora logará uma mensagem dizendo "O viking {nome}, de {idade} anos está lutando em nome de Odin!"

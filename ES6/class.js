@@ -39,3 +39,25 @@ const usuario = {
   console.log(usuario2);
   usuario2.logout()
   
+
+
+  // ############################################## Exercicios ####################################
+  
+// 1. Crie uma classe chamada "Guerreiro", que receba, em seu constructor,
+// um "nome" e uma "idade",  e que contenha um método chamado "lutar"
+// que logue uma mensagem dizendo "O guerreiro {nome}, de {idade} anos está lutando!"
+
+class Guerreiro {
+  constructor(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+  }
+  lutar() {
+    console.log(`O guerreiro ${this.nome}, de ${this.idade} anos está lutando!`);
+  }
+}
+
+const guerreiro1 = new Guerreiro('Thor', 200);
+
+console.log(guerreiro1)
+guerreiro1.lutar()
