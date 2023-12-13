@@ -46,7 +46,7 @@ const pessoas = [
   ];
   
   const maiorDeIdade = pessoas.some((pessoa) => {
-    return pessoa.idade > 18;
+    return pessoa.idade >= 18;
   });
   
   console.log(maiorDeIdade);
